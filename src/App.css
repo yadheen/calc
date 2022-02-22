@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+    background-color: #f69680;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.numpad {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.numpad div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    margin: 1%;
+    width: 20%;
+    height: 8vh;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 5vh;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.displaytab {
+    background-color: black;
+    color: azure;
+    background-image: url("https://www.pexels.com/photo/pink-and-blue-abstract-painting-2860807/");
+    font-size: 5vh;
+    height: 5vh;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
 }
